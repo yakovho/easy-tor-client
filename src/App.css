@@ -1,0 +1,720 @@
+.navbar-nav {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+.navbar-toggler {
+  border: 0px solid !important;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(74, 47, 93, 0.871)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>") !important;
+}
+
+.Dashboard {
+  margin-top: 100px;
+}
+
+.dashboard_today {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+.schedule_today {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.dashboard_details {
+  margin-top: 50px;
+}
+
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.dashboard_text {
+  border: 2px solid white;
+  padding: 15px;
+  font-weight: 600;
+  background-color: #10b98141;
+}
+
+.dashboard_sum {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.dashboard_icon {
+  margin-top: 20px;
+  margin-right: 8px;
+  font-size: 30px;
+}
+
+.dashboard_tytle_link {
+  margin-top: 30px;
+}
+
+.dashboard_tytle_event {
+  margin-top: 110px;
+}
+
+.dashboard_div_link {
+  border: 1px solid #e9e6e6;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.dashboard_link {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.link_url {
+  color: #10b981 !important;
+  background-color: #10b98117;
+  font-weight: 600 !important;
+}
+
+.dashboard_button {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.dashboard_div_events {
+  width: 100%;
+  text-align: right;
+}
+
+.dashboard_div_pause {
+  border: 1px solid #e9e6e6;
+  padding: 15px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.dashboard_events {
+  border: 1px solid #e9e6e6;
+  padding: 15px;
+}
+
+.schedule_today_text {
+  margin-bottom: 14px;
+}
+
+.events_time_start {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.events_time_end {
+  font-size: 12px;
+  text-align: center;
+}
+
+.events_service {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.events_customer {
+  font-size: 14px;
+}
+
+.events_link {
+  border: 1px solid #e9e6e6;
+  border-radius: 5px;
+  padding: 4px 10px 10px 10px;
+  color: #10b981;
+  font-weight: 500 !important;
+}
+
+.events_link:hover {
+  color: #10b981 !important;
+  border: 1px solid #10b981 !important;
+}
+
+.div_events_link {
+  margin-top: 5px;
+}
+
+.Events {
+  margin-top: 100px;
+}
+
+.Settings {
+  margin-top: 100px;
+}
+
+.tytle {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.form-label {
+  margin-bottom: 0.3rem !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+}
+
+.form-control {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+
+.row_event {
+  --bs-gutter-x: 0rem !important;
+}
+
+.row_tor {
+  --bs-gutter-x: 0.2rem !important;
+}
+
+
+.button_mew{
+  text-align: left;
+  margin-left: 0px;
+}
+
+.delete_div{
+  position: relative;
+}
+
+.delete_event{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.not_events{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.event_text{
+font-weight: 600;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.button_event_text {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.button_event {
+  background-color: white !important;
+  border: #e9e6e6 1px solid !important;
+  border-radius: 5px;
+  padding: 4px 26px 4px 26px;
+  color: black !important;
+  font-weight: 600 !important;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 0px !important;
+}
+
+.button_event:hover {
+  border: #10b981 1px solid !important;
+  color: #10b981 !important;
+}
+
+.button_outline {
+  background-color: white !important;
+  border: #10b981 1px solid !important;
+  color: #10b981 !important;
+  font-weight: 500 !important;
+}
+
+.button_outline:hover {
+  background-color: #10b981 !important;
+  border: #10b981 1px solid !important;
+  color: white !important;
+}
+
+.button_classic {
+  background-color: #10b981 !important;
+  border: #10b981 1px solid !important;
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+.button_classic:hover {
+  background-color: white !important;
+  border: #10b981 1px solid !important;
+  color: #10b981 !important;
+}
+
+
+.button_delete {
+  background-color: white !important;
+  border: #ef4444 1px solid !important;
+  color: #ef4444 !important;
+  font-weight: 500 !important;
+}
+
+.button_delete:hover {
+  background-color: #ef4444 !important;
+  border: #ef4444 1px solid !important;
+  color: white !important;
+}
+
+.schedule_delete {
+  background-color: white !important;
+  border: #ef4444 1px solid !important;
+  color: #ef4444 !important;
+  font-weight: 500 !important;
+}
+
+.schedule_delete:hover {
+  background-color: #ef4444 !important;
+  border: #ef4444 1px solid !important;
+  color: white !important;
+}
+
+.schedule_link {
+  border: 1px solid #e9e6e6;
+  border-radius: 5px;
+  padding: 7px 10px 8px 10px;
+  color: #10b981;
+  font-weight: 500 !important;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.schedule_link:hover {
+  color: #10b981 !important;
+  border: 1px solid #10b981 !important;
+}
+
+.schedule_link_text {
+  color: #10b981;
+}
+
+.schedule_icon {
+  margin-right: 6px;
+}
+
+.schedule_delete_icon {
+  font-size: 19px;
+}
+
+.settings_form {
+  text-align: center;
+  font-weight: 500;
+}
+
+.settings_form_tytle {
+  margin-bottom: 16px;
+}
+
+.Signup {
+  margin-top: 150px;
+}
+
+.signup_link {
+  text-decoration: none !important;
+  font-size: 17px !important;
+  font-weight: 600 !important;
+}
+
+.signup_link:visited {
+  color: #10b981;
+  text-decoration: none;
+}
+
+.signup_link:hover {
+  color: #10b981;
+  text-decoration: none;
+}
+
+.signup_link:active {
+  color: #10b981;
+  text-decoration: none;
+}
+
+.div_signup_link {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.div_signup_text {
+  color: #10b981 !important;
+}
+
+.Login {
+  margin-top: 200px;
+}
+
+.signup_tytle {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.login_tytle {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.Schedule {
+  margin-top: 100px;
+}
+
+.schedulr_spinner {
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+.schedulr_spinner_text {
+  text-align: right;
+  margin-right: 3px;
+}
+
+.events_pause_text {
+  color: #dc2626;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: right;
+}
+
+.margin_loading {
+  margin-top: 100px;
+}
+
+.list_empty {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.events_pause_number {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.schedule_clender {
+  margin-top: 12px;
+}
+
+.react-calendar__tile--active {
+  background: #10b981 !important;
+}
+
+.react-calendar__tile {
+  border-radius: 50px !important;
+  padding: 15px 0px 13px 0px !important;
+  line-height: 20px !important;
+  font-size: 18px !important;
+}
+
+.Services {
+  margin-top: 100px;
+}
+
+.dashboard_div_services {
+  border: 1px solid #e9e6e6;
+  padding: 15px;
+}
+
+.services_name {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.div_button_services {
+  text-align: left;
+}
+
+.div_button_createServices {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.modal-header .btn-close {
+  margin: 0px !important;
+}
+
+.text_delete {
+  color: #ef4444;
+  font-size: 14px;
+  text-align: center;
+}
+
+.Customers {
+  margin-top: 100px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+  color: #10b981 !important;
+  font-weight: 500 !important;
+  border-bottom: #ffffff00 2px solid !important;
+}
+
+.nav-link {
+  color: black !important;
+  font-weight: 500 !important;
+  border-bottom: #ffffff00 2px solid !important;
+}
+
+.nav-link:hover {
+  color: #10b981 !important;
+  font-weight: 500 !important;
+  border-bottom: #ffffff00 2px solid !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black !important;
+  background-color: #ffffff00 !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button::after {
+  position: absolute;
+  left: 14px;
+}
+
+.text_code {
+  margin-bottom: 20px;
+}
+
+.login_test {
+  margin-top: 30px;
+  font-size: 16px !important;
+  background-color:#ffffff00 !important;
+  border: 0px solid !important;
+  color: #ef4444 !important;
+  font-weight: 500 !important;
+}
+
+.LinkCustomers {
+  padding: 16px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.BookingsCustomers {
+  padding: 16px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.link_text {
+  margin-top: 30px;
+}
+
+.link_text1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.link_text2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.link_title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
+}
+
+.link_settings {
+  text-align: right;
+  font-weight: 600;
+  border: 1px solid #e9e6e6;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.bookings_settings {
+  text-align: right;
+  font-weight: 600;
+  border: 1px solid #e9e6e6;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.link_button_replay {
+  padding: 0px;
+  background-color: #ffffff00 !important;
+  border: 0px solid;
+  margin-left: 10px;
+}
+
+.link_tor {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.link_login {
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.button_tor {
+  margin-top: 40px;
+}
+
+.booking_login {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.booking_events {
+  border: 1px solid #e9e6e6;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.booking_eventst_text{
+  font-weight: 400;
+}
+
+.link_services {
+  padding: 15px;
+  text-align: right;
+}
+
+.link_settings_text {
+  text-align: right;
+  margin-right: 0px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.link_day{
+  text-align: center;
+  font-weight: 400;
+}
+
+.link_event_text {
+  margin-top: 36px;
+  text-align: right;
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+
+.new_tor{
+  position: absolute !important;
+  text-align: left !important;
+  margin-left: auto;
+}
+
+.button_schedule{
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+  .dashboard_details {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+
+  .dashboard_tytle_event {
+    margin-top: 30px;
+  }
+
+  .spinner_icon {
+    margin-top: 2px;
+  }
+
+  .dashboard_text {
+    font-size: 12px;
+  }
+
+  .dashboard_event {
+    margin-bottom: 30px;
+  }
+
+  .schedule_today {
+    margin-top: 20px;
+  }
+
+  .events_link:hover {
+    color: #10b981 !important;
+    border: 1px solid #10b981 !important;
+  }
+
+  .schedule_link {
+    font-size: 11px;
+  }
+
+  .schedule_delete {
+    font-size: 12px !important;
+  }
+
+  .link_event_text {
+    margin-top: 24px;
+  }
+
+  .button_event {
+    padding: 4px 20px 4px 20px;
+  }
+
+  .link_settings_text {
+    margin-right: 15px;
+  }
+
+  .bookings_settings {
+    padding: 15px 0px 0px 0px;
+  }
+
+  .button_mew{
+    margin-left: 15px;
+  }
+
+  .schedule_today {
+    font-size: 17px;
+  }
+
+  .schedule_today_text {
+    font-size: 14px;
+  }
+
+  .button_schedule{
+    margin-top: 25px;
+  }
+}
